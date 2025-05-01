@@ -26,6 +26,11 @@ struct ContentView: View {
                     } label: {
                         Text("Go To Another Page")
                     }
+                    NavigationLink {
+                       DAAView()
+                    } label: {
+                        Text("Disukhi Ahmed")
+                    }
 
                 }
             }
